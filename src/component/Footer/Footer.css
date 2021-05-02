@@ -1,0 +1,29 @@
+#footer{
+    background: #1b242f;
+}
+
+.up-icon{
+    background: #e31b6d;
+    font-size: 1.8em;
+    padding: 15px;
+    margin-top: -25px;
+}
+
+.fab{
+    font-size: 1.2em;
+    background: #252934;
+    padding: 20px;
+    margin: 15px;
+}
+
+.footer-txt{
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 0.8em;
+    color: #9b9494;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

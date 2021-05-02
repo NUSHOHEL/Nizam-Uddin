@@ -1,0 +1,39 @@
+#contact{
+    background: #252934;
+    margin-top: 120px !important;
+    padding-bottom: 100px;
+}
+
+#contact p{
+    color: #00a1a7;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 600;
+}
+
+.border-wht{
+    border-bottom: 4px solid #fff;
+}
+
+form{
+    padding-bottom: 60px;
+}
+
+input, textarea{
+    border-radius: 0px !important;
+    background: #1e242c !important;
+    border: 1px solid #1e242c !important;
+    margin-bottom: -12px;
+}
+
+.contact-btn{
+    border: 1.5px solid white;
+    background: transparent;
+    color: white;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.contact-btn:hover{
+    animation: fadeIn 0.3s forwards;
+}

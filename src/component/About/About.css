@@ -1,0 +1,140 @@
+.border-txt{
+    border-bottom: 4px solid #444649;
+}
+
+.about-img{
+    width: 120px;
+}
+
+.text-grey{
+    color: rgb(68, 70, 73);
+    font-weight: 700;
+}
+
+h4.text-grey{
+    color: rgba(68, 70, 73, 0.9);
+    font-family: 'Raleway', 'sans-serif';
+}
+
+p.text-grey{
+    color: rgba(68, 70, 73, 0.7);
+    font-weight: 600;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+#profile-pic{
+    width: 290px;
+}
+
+.custom-link{
+    text-decoration: none;
+    color: #04c2c9;
+}
+
+.custom-link:hover{
+    text-decoration: none;
+    color: #04c2c9;
+}
+
+.progress{
+    height: 28px;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.progress-skill{
+    border-radius: 0;
+    background: #04c2c9;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.progress-fill{
+    border-radius: 0;
+    background: #00a1a7;
+}
+
+.ninetyFill{
+    animation: ninetyFill 1s ease-in-out forwards;
+}
+
+.eightyFill{
+    animation: eightyFill 1s ease-in-out forwards;
+}
+
+.sixtyFill{
+    animation: sixtyFill 1s ease-in-out forwards;
+}
+
+.sixfiveFill{
+    animation: sixfiveFill 1s ease-in-out forwards;
+}
+
+.fiftyFill{
+    animation: fiftyFill 1s ease-in-out forwards;
+}
+
+.progress-value{
+    font-family: 'Raleway', 'sans-serif';
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.project-title{
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 500;
+    width: 70%;
+    text-align: center;
+}
+
+.active{
+    color: white;
+    background: #e31b6d;
+    padding: 4px 10px;
+    
+}
+@keyframes ninetyFill{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes eightyFill{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes sixtyFill{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes sixfiveFill{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes fiftyFill{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 40%;
+    }
+}

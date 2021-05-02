@@ -1,0 +1,47 @@
+.navbar{
+    background: #1b242f;
+    border-bottom: 3px solid #f5f7f7b8;
+    width: 100%;
+}
+
+.navbar-display{
+    animation: popUp 0.8s forwards;
+    z-index: 10;
+}
+
+.nav-link{
+    color: white;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.active-link{
+    animation: 0.2s colorIn forwards;
+}
+
+.nav-link:hover{
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #e31b6d
+}
+
+.menu-icon{
+    font-size: 1.2em;
+}
+@keyframes popUp{
+    0%{
+        position: fixed;
+        top: -56px;
+    }
+    100%{
+        position: fixed;
+        top: 0px;
+    }
+}
+@keyframes colorIn{
+    0%{
+        color: white;
+    }
+    100%{
+        color: #e31b6d;
+    }
+}

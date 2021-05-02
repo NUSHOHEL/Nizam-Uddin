@@ -1,0 +1,43 @@
+.blog-pic{
+    width: 100%;
+    height: 200px;
+}
+
+.blog-pic-1{
+    background: url(../../images/blog-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-pic-2{
+    background: url(../../images/blog-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-pic-3{
+    background: url(../../images/blog-3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-pic-4{
+    background: url(../../images/blog-4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-title, .blog-desc{
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.blog-line{
+    border: 1.5px solid #04c2c9;
+    width: 25%;
+    margin-left: 0;
+}
+
+.blog-desc{
+    font-size: 0.9em;
+    text-align: left;
+}
